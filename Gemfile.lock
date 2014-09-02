@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    let_us_hide (0.0.1)
+    let_us_hide (1.0.0)
       confiture (~> 0.1.4)
       json (~> 1.8.1)
 
