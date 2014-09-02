@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First, you need to set your API key.  If you don't have one, you can sign up here, http://letushide.com/subscribe/. 
+
+    LetUsHide::API.configure api_key: 'bf5ce4ad84774d4817a83aad'
+    
+Then you can get a list of proxy servers:
+
+    LetUsHide::API.list
+    
+You can filter the list by passing an options hash:
+
+    options = {
+        num: 100, # number of results to return
+        as: %w[tp ap dp hap], # anonymity selector 
+        ps: %w[http https socks4 socks5], # protocol selector
+        cs: %w[us ca] # country selector 
+    }
+    
+    LetUsHide::API.list(options)
 
 ## Contributing
 
