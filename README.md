@@ -36,6 +36,8 @@ You can filter the list by passing an options hash:
     }
     
     LetUsHide::API.list(options)
+    
+For more information on these options, check out the parameters section on the official API site - http://letushide.com/api/
 
 ## Contributing
 
