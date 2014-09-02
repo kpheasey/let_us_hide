@@ -20,7 +20,7 @@ Or install it yourself as:
 
 First, you need to set your API key.  If you don't have one, you can sign up here, http://letushide.com/subscribe/. 
 
-    LetUsHide::API.configure api_key: 'bf5ce4ad84774d4817a83aad'
+    LetUsHide::API.configure api_key: 'MY_API_KEY'
     
 Then you can get a list of proxy servers:
 
